@@ -1,0 +1,249 @@
+/* Custom Styles */
+
+/* Global Font */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Dark Mode for SweetAlert2 */
+.swal2-popup.dark {
+    background: #312e81;
+    color: #e0e0e0;
+}
+
+/* Fade Animation */
+.fade-in {
+    animation: fadeIn 0.3s ease-in;
+}
+
+.fade-out {
+    animation: fadeOut 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+/* Bounce Animation for Certificate Trophy */
+.bounce {
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-20px); }
+    60% { transform: translateY(-10px); }
+}
+
+/* Certificate Signature Style */
+.signature {
+    position: relative;
+    width: 150px;
+    height: 50px;
+}
+
+.signature-text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    color: #4b5563;
+    position: absolute;
+    bottom: 0;
+}
+
+/* Subject Button Style */
+.subject-btn {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: none;
+}
+
+.subject-btn:hover {
+    box-shadow: 0 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Dark Mode for App Content */
+.app-content.dark {
+    background: linear-gradient(to bottom right, #2a2d6e, #5a2d6e);
+}
+
+/* General Dark Mode Adjustments */
+body.dark {
+    background: #2b1b4a;
+}
+
+.app-content.dark {
+    background: #2b1b4a;
+    color: #e2e8f0;
+}
+
+.app-content .bg-white {
+    background-color: #ffffff;
+}
+
+.app-content.dark .bg-white {
+    background-color: #3a2b63;
+    color: #e2e8f0;
+}
+
+.app-content.dark .bg-white.bg-opacity-50 {
+    background-color: rgba(58, 43, 99, 0.8);
+}
+
+/* Button Styles (General) */
+.btn-primary {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+}
+
+.btn-primary,
+.btn-primary * {
+    color: #ffffff !important;
+    z-index: 2;
+}
+
+.btn-primary[href] {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-content.dark .btn-primary:not(.subject-btn) {
+    background-color: #4a4e69;
+    color: #e2e8f0;
+}
+
+.app-content.dark .btn-primary:not(.subject-btn):hover {
+    background-color: #5c637a;
+}
+
+/* Question Screen Dark Mode */
+.app-content.dark #questionScreen .bg-gray-200 {
+    background-color: #4a4e69;
+}
+
+.app-content.dark #questionScreen .bg-blue-600 {
+    background-color: #60a5fa;
+}
+
+.app-content.dark #questionScreen .bg-green-200 {
+    background-color: #68d391;
+}
+
+.app-content.dark #questionScreen .bg-gray-100 {
+    background-color: #4a4e69;
+    color: #ffffff !important;
+}
+
+.app-content.dark #questionScreen .hover\:bg-gray-200:hover {
+    background-color: #5c637a;
+}
+
+/* Rewards Shop Dark Mode */
+.app-content.dark #rewardsShop .border {
+    border-color: #4a4e69;
+}
+
+.app-content.dark #rewardsShop .bg-gray-100 {
+    background-color: #3a2b63;
+}
+
+.app-content.dark #rewardsShop .bg-blue-100,
+.app-content.dark #rewardsShop .bg-green-100,
+.app-content.dark #rewardsShop .bg-yellow-100,
+.app-content.dark #rewardsShop .bg-purple-100 {
+    background-color: #4a4e69;
+}
+
+/* Certificate Styling */
+.certificate {
+    
+    background: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg') no-repeat center center;
+    background-size: cover;
+    border: 10px solid #f0f;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.app-content.dark .certificate {
+    background: #3a2b63;
+    color: #e2e8f0;
+    border-color: #9f7aea;
+}
+
+.app-content.dark .certificate input {
+    background-color: #4a4e69;
+    border-color: #9f7aea;
+    color: #e2e8f0;
+}
+
+.app-content.dark .signature-text {
+    color: #e2e8f0;
+}
+
+/* SweetAlert2 Dark Mode */
+.app-content.dark .swal2-popup {
+    background: #3a2b63 !important;
+    color: #e2e8f0 !important;
+}
+
+/* Loading Spinner */
+#loadingSpinner {
+    backdrop-filter: blur(5px);
+}
+
+/* Advanced Questions Button */
+.advanced-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+@media (min-width: 640px) {
+    .advanced-btn {
+        font-size: 1.125rem;
+    }
+}
+
+/* Results Screen Styling */
+#resultsScreen .bg-white {
+    background-color: #ffffff;
+    border: 5px solid #a855f7;
+}
+
+.app-content.dark #resultsScreen .bg-white {
+    background-color: #3a2b63;
+    border-color: #9f7aea;
+}
+
+#resultsScreen .text-purple-600 {
+    color: #a855f7;
+}
+
+.app-content.dark #resultsScreen .text-purple-600 {
+    color: #9f7aea;
+}
+
+#resultsScreen .text-gray-600 {
+    color: #4b5563;
+}
+
+.app-content.dark #resultsScreen .text-gray-600 {
+    color: #94a3b8;
+}

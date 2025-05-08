@@ -1,0 +1,245 @@
+{
+    "categories": [
+      {
+        "name": "Math",
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "question": "What is 7 + 5?",
+            "options": ["10", "12", "13", "15"],
+            "answer": "12"
+          },
+          {
+            "type": "fill_blank",
+            "question": "20 − ___ = 14",
+            "answer": "6"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Which number comes after 9?",
+            "options": ["8", "9", "10", "11"],
+            "answer": "10"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "What is 3 × 4?",
+            "options": ["7", "12", "15", "9"],
+            "answer": "12"
+          },
+          {
+            "type": "fill_blank",
+            "question": "15 ÷ 3 = ___",
+            "answer": "5"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "What is 9 × 2?",
+            "options": ["18", "11", "21", "16"],
+            "answer": "18"
+          },
+          {
+            "type": "fill_blank",
+            "question": "___ + 8 = 15",
+            "answer": "7"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "How many sides does a triangle have?",
+            "options": ["2", "3", "4", "5"],
+            "answer": "3"
+          },
+          {
+            "type": "fill_blank",
+            "question": "The square of 4 is ___.",
+            "answer": "16"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "What is half of 20?",
+            "options": ["5", "10", "15", "20"],
+            "answer": "10"
+          }
+        ]
+      },
+      {
+        "name": "English",
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "question": "Which word is a noun?",
+            "options": ["run", "happy", "dog", "quickly"],
+            "answer": "dog"
+          },
+          {
+            "type": "fill_blank",
+            "question": "The opposite of 'hot' is ___.",
+            "answer": "cold"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Which sentence is correct?",
+            "options": ["I has a cat.", "I have a cat.", "I having a cat.", "I had a cat."],
+            "answer": "I have a cat."
+          },
+          {
+            "type": "fill_blank",
+            "question": "An apple starts with the letter ___.",
+            "answer": "A"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Which word is a verb?",
+            "options": ["tree", "running", "green", "apple"],
+            "answer": "running"
+          },
+          {
+            "type": "fill_blank",
+            "question": "The plural of 'child' is ___.",
+            "answer": "children"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Choose the correct spelling:",
+            "options": ["Frend", "Friend", "Freind", "Frined"],
+            "answer": "Friend"
+          },
+          {
+            "type": "fill_blank",
+            "question": "She ___ to school every day.",
+            "answer": "goes"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Which word means 'very happy'?",
+            "options": ["sad", "angry", "excited", "tired"],
+            "answer": "excited"
+          },
+          {
+            "type": "fill_blank",
+            "question": "The past tense of 'eat' is ___.",
+            "answer": "ate"
+          }
+        ]
+      },
+      {
+        "name": "Science",
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "question": "What do plants need to grow?",
+            "options": ["Water", "Sunlight", "Soil", "All of these"],
+            "answer": "All of these"
+          },
+          {
+            "type": "fill_blank",
+            "question": "The ___ is the closest star to Earth.",
+            "answer": "sun"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "What gas do humans breathe out?",
+            "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+            "answer": "Carbon Dioxide"
+          },
+          {
+            "type": "fill_blank",
+            "question": "The Earth orbits around the ___.",
+            "answer": "sun"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Which animal is a mammal?",
+            "options": ["Frog", "Snake", "Whale", "Fish"],
+            "answer": "Whale"
+          },
+          {
+            "type": "fill_blank",
+            "question": "Rain is part of the ___ cycle.",
+            "answer": "water"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Which of these is NOT a state of matter?",
+            "options": ["Solid", "Liquid", "Gas", "Sound"],
+            "answer": "Sound"
+          },
+          {
+            "type": "fill_blank",
+            "question": "Bees help with ___ by spreading pollen.",
+            "answer": "pollination"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "What do we call animals that eat only plants?",
+            "options": ["Herbivores", "Carnivores", "Omnivores", "Predators"],
+            "answer": "Herbivores"
+          },
+          {
+            "type": "fill_blank",
+            "question": "Humans get energy from ___.",
+            "answer": "food"
+          }
+        ]
+      },
+      {
+        "name": "General Knowledge",
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "question": "Which animal is the largest?",
+            "options": ["Elephant", "Blue Whale", "Giraffe", "Polar Bear"],
+            "answer": "Blue Whale"
+          },
+          {
+            "type": "fill_blank",
+            "question": "The capital of France is ___.",
+            "answer": "Paris"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Who painted the Mona Lisa?",
+            "options": ["Vincent van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Claude Monet"],
+            "answer": "Leonardo da Vinci"
+          },
+          {
+            "type": "fill_blank",
+            "question": "There are ___ colors in a rainbow.",
+            "answer": "seven"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Which planet is known as the Red Planet?",
+            "options": ["Earth", "Mars", "Jupiter", "Venus"],
+            "answer": "Mars"
+          },
+          {
+            "type": "fill_blank",
+            "question": "The Statue of Liberty is in ___.",
+            "answer": "New York"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Which bird cannot fly?",
+            "options": ["Eagle", "Sparrow", "Ostrich", "Crow"],
+            "answer": "Ostrich"
+          },
+          {
+            "type": "fill_blank",
+            "question": "The Great Wall is in ___.",
+            "answer": "China"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "What is the fastest land animal?",
+            "options": ["Lion", "Cheetah", "Horse", "Tiger"],
+            "answer": "Cheetah"
+          },
+          {
+            "type": "fill_blank",
+            "question": "Shakespeare wrote the play 'Romeo and ___.'",
+            "answer": "Juliet"
+          }
+        ]
+      }
+    ]
+  }
